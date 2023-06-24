@@ -1,0 +1,381 @@
+  *{
+  box-sizing: border-box;
+}
+
+img{
+  max-width: 100%;
+  max-height: fit-content;
+  position: relative;
+}
+
+a{
+  display: block;
+  text-decoration: none;
+}
+
+.main{
+  background: url(./img/images/banner.jpg);
+  margin-top: 1rem;
+  max-width: 100%;
+  height: fit-content;
+  padding-bottom: 3rem;
+}
+
+.h1{
+  color: white;
+  text-transform: capitalize;
+  font-size: 60px;
+  font-weight: 700;
+  padding-right: 2rem;
+}
+
+.ul-list{
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  list-style: none;
+  text-transform: uppercase;
+  font-size: large;
+  color: white;
+}
+
+.ul-list,li,a{
+  color: white;
+}
+
+
+.left{
+  padding-top: 3.5rem;
+  padding-left: 1rem  ;
+}
+
+.bann_img{
+  width: 600px; 
+  height: 600px;
+  padding-left: 5rem; 
+  padding-top: 2rem;
+}
+
+.ul-list,li,a:hover{
+  color: red;
+}
+
+/* .ul-list,li,a{
+  text-transform: uppercase;
+  color: white;
+  font-size: ;
+} */
+
+
+
+.title1{
+  color: white;
+  text-transform: capitalize;
+  list-style: none;
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.button1{
+  color: red;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+padding-left: 7rem;
+padding-top: 2rem;
+padding-bottom: 2rem;
+padding-right: 7rem;
+background: white;
+transition: background 1s ease-in-out;
+}
+
+.button1:hover{
+  color: white;
+  background: red;
+}
+
+.main-sub{
+  display: flex;
+  justify-content: center;
+}
+
+.img2{
+  width: 480px;
+  height: 500px; 
+}
+
+.mainy{
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.sub-mainy{
+  margin-right: 50px;
+  max-width: 100%;
+}
+
+
+
+.title2{
+  color: black;
+  text-transform: capitalize;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.button2{
+    color: white;
+  font-size: 15px;
+  font-weight: 200;
+  text-transform: uppercase;
+  padding: 0.5rem;
+background: black;
+transition: background 1s ease-in-out;
+}
+
+.button2:hover{
+  color: white;
+  background: red;
+}
+
+.su-main{
+  width: 1500px;
+  height: 230px;
+}
+
+.bund{
+  display: flex;
+  justify-content: space-between;
+  background: black;
+  max-width: 100%;
+  height: auto;
+  padding: 5rem 1rem 5rem 1rem;
+}
+
+.title3{
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.text2{
+  color: white;
+  font-size: larger;
+  font-weight: 100;
+  padding: 0rem;
+}
+
+.button3{
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+padding-left: 1rem;
+padding-top: 0.5rem;
+padding-bottom: 0.5rem;
+padding-right: 0.5rem;
+background: white;
+transition: background 1s ease-in-out;
+}
+
+.button3:hover{
+  color: white;
+  background: red;
+}
+
+.dune{
+    max-width: 100%;
+}
+
+.dune{
+  line-height: 1rem;
+}
+
+.solusan{
+  width: 1500px;
+  height: fit-content;
+}
+
+.tion{
+  max-width: 100%;
+}
+
+.stion{
+  align-items: center;
+}
+
+.title4{
+  color: black;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 50px;
+  font-weight: 700;
+  padding-top: 5rem;
+}
+
+.stiony{
+  display: flex;
+  gap: 2rem;
+}
+
+.jpg{
+  width: 800px;
+  height: 350px;
+  padding-bottom: 2rem;
+}
+
+.jpgs{
+  width: 800px;
+  height: 350px;
+  padding-bottom: 2rem;
+}
+
+.website{
+  background-color: black;
+  max-width: 100%;
+  height: auto;
+  padding: 5rem;
+}
+
+.web{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+  padding-right: 0;
+}
+
+.h1{
+  padding-top: 3rem;
+  padding-left: 0.5rem;
+}
+
+.h1,.title5{
+  color: whitesmoke;
+  font-size: 70px;
+  font-weight: 700;
+}
+
+
+
+
+.p,.text3{
+  color: black;
+  text-align: center;
+  padding-top: 1.5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-bottom: 3rem;
+}
+
+.diven{
+  background: white;
+  max-width: fit-content;
+  height: fit-content;
+  padding-top: 1.2rem;
+}
+
+.ctrl1{
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  padding-top: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.call{
+  color: red;
+  font-weight: 400;
+}
+
+
+.ctrl2{
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  padding-left: 4rem;
+  padding-top: 1.5rem;
+  padding-right: 4rem;
+  padding-bottom: 2rem;
+}
+
+.email{
+  color: red;
+  font-weight: 400;
+}
+
+
+
+.bolu{
+  color: white;
+  padding-bottom: 3rem;
+}
+
+
+
+.copyright{
+  display: flex;
+  background-color: red;
+}
+
+.emmrt{
+  display: flex;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  padding: 1.5rem 20px 1.5rem 20rem;
+}
+
+.httl,a{
+  color: white;
+  list-style: none;
+  font-size: 18px;
+  text-align: center;
+}
+
+.air{
+  text-align: center;
+}
+
+.httl:hover,#a{
+  color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
